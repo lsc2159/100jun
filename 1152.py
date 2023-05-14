@@ -1,3 +1,3 @@
 N=input()
-sentence=N.split()
+sentence=N.strip().split()
 print(len(sentence))
